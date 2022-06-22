@@ -5,6 +5,7 @@ function loop() {
   }
   console.log("final", i); // returns final 5
 }
+
 //Block Scope
 function loop2() {
   for (let i = 0; i < 5; i++) {
@@ -12,6 +13,7 @@ function loop2() {
   }
   console.log("final", i); // returns an error here
 }
+
 loop();
 /*
  1

@@ -31,12 +31,13 @@
 //
 new Date("1900-10-10").lastYear();
 // "1899"
-
+//Solution
 Date.prototype.lastYear = function() ={
   console.log(this);
   return this.getFullYear() - 1;
 };
 
+// 2nd Solution
 Array.prototype.map = function () {
  let arr =[];
  for(let i=0; i<this.length; i++){
@@ -45,3 +46,5 @@ Array.prototype.map = function () {
 
  return arr;
 }
+console.log([1,2,3].map())
+// ['1🗺️', '2🗺️', '3🗺️']

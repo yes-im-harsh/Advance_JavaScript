@@ -5,9 +5,9 @@
 
 var obj = {
   i: 10,
-  a: () => console.log(this.i, this),
+  a: () => console.log("a", this.i, this),
   b: function () {
-    console.log(this.i, this);
+    console.log("b", this.i, this);
   },
 };
 

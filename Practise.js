@@ -48,3 +48,17 @@ Array.prototype.map = function () {
 }
 console.log([1,2,3].map())
 // ['1🗺️', '2🗺️', '3🗺️']
+
+//
+const obj1 = {
+  name: "Bob",
+  age: 22
+}
+
+const obj2 = {
+  name: "Bob",
+  age: 22
+}
+
+console.log(obj1 === obj2);
+console.log(JSON.stringify(obj1) === JSON.stringify(obj2));

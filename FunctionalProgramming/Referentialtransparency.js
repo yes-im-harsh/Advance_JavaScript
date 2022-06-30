@@ -14,3 +14,6 @@ b(a(2, 3)); // 10,
 
 //so it could be changed to
 b(5); //10
+
+// Idempotent: If you give a fixed input to the function, it will return the same output,
+// no matter how many times it ran.
